@@ -1,0 +1,27 @@
+{
+    "name": "opmvpc/stats",
+    "description": "Librairie statistique",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Opmvpc\\Stats\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Opmvpc",
+            "email": "thibsix@outlook.be"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.35"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    
+    },
+    "scripts": { "test": "vendor/bin/pest" }
+}
